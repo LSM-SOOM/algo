@@ -26,4 +26,14 @@ char* solution(const char* my_string) {
     answer[len] = '\0';
     
     return answer;
+    
+//      int len = strlen(my_string);
+//     char* answer = (char*)malloc(len + 1);  // +1 for null terminator
+
+//     for (int i = 0; i < len; i++) {
+//         answer[i] = my_string[len - 1 - i];  // reverse copy
+//     }
+
+//     answer[len] = '\0';  // null 문자 추가
+//     return answer;
 }
